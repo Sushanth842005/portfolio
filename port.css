@@ -1,7 +1,7 @@
-/* ----- POPPINS FONT Link ----- */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/* ----- VARIABLES ----- */
+
 :root{
     --body-color: rgb(88, 201, 249);
     --color-white: rgb(130, 203, 239);
@@ -18,7 +18,7 @@
 
 }
 
-/* ----- BASE ----- */
+
 *{
     margin: 0;
     padding: 0;
@@ -26,12 +26,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* ----- SMOOTH SCROLL ----- */
+
 html{
     scroll-behavior: smooth;
 }
 
-/* ----- CHANGE THE SCROLL BAR DESIGN ----- */
+
 ::-webkit-scrollbar{
     width: 10px;
     border-radius: 25px;
@@ -48,9 +48,9 @@ html{
 }
 
 
-/* ---##-- REUSABLE CSS --##--- */
 
-/* ----- GLOBAL BUTTON DESIGN ----- */
+
+
 .btn{
     font-weight: 500;
     padding: 12px 20px;
@@ -68,12 +68,12 @@ html{
     color: var(--color-white);
 }
 
-/* ----- GLOBAL ICONS DESIGN ----- */
+
 i{
     font-size: 16px;
 }
 
-/* ------- BASE -------- */
+
 body{
     background: var(--body-color);
 }
@@ -82,7 +82,7 @@ body{
     position: relative;
 }
 
-/* ----- NAVIGATION BAR ----- */
+
 nav{
     position: fixed;
     display: flex;
@@ -149,12 +149,12 @@ nav{
 }
 
 
-/* ----- WRAPPER DESIGN ----- */
+
 .wrapper{
     padding-inline: 10vw;
 }
 
-/* ----- FEATURED BOX ----- */
+
 .featured-box{
     position: relative;
     display: flex;
@@ -162,7 +162,7 @@ nav{
     min-height: 700px;
 }
 
-/* ----- FEATURED TEXT BOX ----- */
+
 .featured-text{
     position: relative;
     display: flex;
@@ -225,7 +225,7 @@ nav{
     color: var(--first-color);
 }
 
-/* ----- FEATURED IMAGE BOX ----- */
+
 .featured-image{
     display: flex;
     justify-content: right;
@@ -288,7 +288,7 @@ nav{
     width: 50%;
 }
 
-/* -- ## --- RESUABLE CSS -- ## -- */
+
 .top-header{
     text-align: center;
     margin-bottom: 5em;
@@ -358,7 +358,7 @@ h3{
     border-radius: 5px;
 }
 
-/* ----- PROJECTS BOX ----- */
+
 .project-container{
     display: flex;
     width: 100%;
@@ -409,7 +409,7 @@ h3{
     z-index: 2;
 }
 
-/* ----- CONTACT BOX ----- */
+
 .contact-info{
     position: relative;
     display: flex;
@@ -448,7 +448,7 @@ h3{
     z-index: 2;
 }
 
-/* ----- CONTACT FORM ----- */
+
 .form-control{
     display: flex;
     flex-direction: column;
@@ -494,7 +494,7 @@ textarea{
     rotate: -45deg;
 }
 
-/* ----- FOOTER BOX ----- */
+
 footer{
     display: flex;
     justify-content: center;
@@ -530,7 +530,7 @@ footer{
 }
 
 
-/* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
+
 @media only screen and (max-width: 1024px){
     .featured-text{
         padding: 0;
@@ -541,7 +541,7 @@ footer{
     }
 }
 
-/* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
+
 @media only screen and (max-width: 900px) {
     .nav-button{
         display: none;
@@ -620,7 +620,7 @@ footer{
 
 }
 
-/* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
+
 
 @media only screen and (max-width: 540px){
     .featured-name{
